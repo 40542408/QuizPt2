@@ -1,0 +1,153 @@
+
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	font-family:"Tahoma";
+	background-color:white
+
+}
+.nav-bar-wrapper {
+	display:flex;
+	justify-content:space-between;
+	padding:0px 2%;
+	margin:0px;
+	align-items:center;
+	background-color:#7AB2C6;
+	
+}
+
+.logo > a > img {
+	height: 100px;
+	display:block;
+	
+}
+
+.nav-buttons {
+	display:flex;
+	justify-content:space-between;
+	background-color:#7AB2C6;
+
+}
+
+.nav-buttons > a {
+	display:flex;
+	font-family: "Tahoma";
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	padding: 9px 25px;
+	margin: 7px;
+	background-color: lightblue;
+	list-style: none;
+	
+}
+.nav-buttons > a:hover{
+	background-color:#7fc5df; 
+	color: white;
+	
+}
+
+.home-content {
+	display:flex;
+	justify-content:space-between;
+	padding: 50px;
+
+}
+
+.right-side{
+	flex: 2;
+	margin-left:100px;
+	width: 50%
+
+}
+
+.right-side > img {
+	height: 400px;
+	width: 100%;
+
+}
+
+.left-side{
+	background-color: lightgray;
+	padding: 2em;
+	flex:1
+
+}
+
+.grid-container{
+	display:grid;
+	grid-gap:15px;
+	padding:100px;
+	margin:80px;
+	background-color: lightgray;
+	grid-template-columns: 1fr 1fr;	
+
+}
+
+.grid-item{
+	justify-items: center;
+	align-items: center;
+	overflow: hidden;
+
+}
+
+.grid-item > img{
+	object-fit:cover;
+	width:100%;
+	display:block;
+	height:100%
+	
+}
+#question{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	font-size: 30px;
+	background-color:#7AB2C6;
+	color:white;
+	align-items: center;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+#answer-buttons{
+	display:contents;
+
+}
+
+.images{
+	display:contents;
+
+}
+
+.btn-item{
+	background-color:#7AB2C6;
+	border:none;
+	color:white;
+	font-size: 25px;
+	border-radius: 4px;
+
+}
+.btn-item:hover {
+	background-color:#7fc5df; 
+	color: white;
+
+}
+
+#next-btn {
+	background-color:#376372;
+	border:none;
+	color:white;
+	font-size: 25px;
+	border-radius: 4px;
+
+}
+#score-btn {
+	background-color:#376372;
+	border:none;
+	color:white;
+	font-size: 25px;
+	border-radius: 4px;
+
+}

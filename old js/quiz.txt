@@ -1,0 +1,33 @@
+
+var images = {
+
+"kea": "kea.jpg",
+"kiwi": "kiwi.jpg",
+"kookaburra": "kookaburra.jpg",
+"blue-jay": "blue-jay.jpg"
+
+
+
+const questionContainerElement = document.getElementById('question-container')
+const questionElement = document.getElementById('question')
+const answerButtonsElement = document.getElementById('answer-buttons')
+
+const currenQuestionIndex
+
+function startGame(){
+	currentQuestionIndex = 0
+	showQuestion()
+}
+
+function showQuestion(question) {
+	questionElement.innerText = question.question
+	
+}
+
+function selectAnswer() {
+}
+
+// create questions
+const questions = [
+new Question("Which bird is not native to New Zealand?", ["kea", "kiwi", "blue-jay", "kookaburra"], "blue-jay"),
+];

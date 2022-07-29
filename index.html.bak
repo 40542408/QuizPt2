@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>New Zealand Quiz</title>
+		<link rel="stylesheet" href="css/quiz.css" type="text/css"/>
+	<head>
+	<body>
+		<div class="nav-bar-wrapper">
+			<header class="logo">
+				<a href="index.html">
+					<img src="images/logo.png"/>
+				</a>
+			</header>
+			<nav class="nav-buttons">
+				<a href="index.html" target="_self">Home</a> 
+				<a href="pages/quiz1.html" target="_self">Quiz</a> 
+				<a href="pages/scoreboard.html" target="_self">Scoreboard</a> 
+			</nav>
+		</div>
+		<div class="home-content">
+			<section>
+				<h1>New Zealand Quiz</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+			molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+			numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+			optio, eaque rerum! Provident similique accusantium nemo autem.</p>
+			</section>
+			<figure class="home-image">
+				<img src="images/sophie-turner-Mount-Taranaki.jpg" />
+				<figcaption>Under title. This is an Image of Mount Taranaki in New Zealand. Taken by Sophie Turner. Ref.</figcaption>
+			</figure>
+		</div>
+	</body>
+	
+	<footer>Donna Clarke;2022 Edinburgh Napier University</footer>
+<html>

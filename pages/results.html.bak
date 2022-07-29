@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>New Zealand Quiz</title>
+	<head>
+	<body>
+	
+	<nav>
+	<a href="../index.html" target="_self">Home</a> |
+	<a href="quiz1.html" target="_self">Quiz</a> |
+	<a href="scoreboard.html" target="_self">Scoreboard</a> |
+ 	</nav>
+	<hr/>
+	
+	<section>
+		<h1>Results</h1>
+
+		<figure>
+		<p>Correct! Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
+		<img src="images/sophie-turner-Mount-Taranaki.jpg" />
+		
+		<p>Wrong. Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
+		<img src="images/sophie-turner-Mount-Taranaki.jpg" />
+	
+		<p>Correct! Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
+		<img src="images/sophie-turner-Mount-Taranaki.jpg" />
+	
+		<p>Correct! Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
+		<img src="images/sophie-turner-Mount-Taranaki.jpg" />
+	
+		</figure>
+	</section>
+	</body>
+	
+	<footer>Donna Clarke;2022 Edinburgh Napier University</footer>
+<html>
